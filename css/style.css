@@ -1,0 +1,106 @@
+/********* CSS *********/
+
+#erreur {
+    display: none;
+    margin-bottom: 50px;
+    color: white;
+    border-bottom: 3px solid red;
+}
+
+body {
+    background-color: #2c3e50;
+    color: white;
+}
+
+.in {
+    background: #191919;
+    width: 50%;
+    max-width: 400px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 30px 40px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000b3;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+
+label {
+    display: inline;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    display: block;
+    border: 0;
+    background: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    border: 3px solid #2980b9;
+    border-radius: 16px;
+    padding: 8px;
+    margin: 10px auto 0px auto;
+    width: 40%;
+    height: 20px;
+    outline: none;
+    transition: 0.25s;
+}
+
+
+.in input[type="text"]:focus,
+.in input[type="password"]:focus,
+.in input[type="email"]:focus {
+    width: 90%;
+    border-color: #2ecc71;
+}
+
+.in input[type="text"]:hover,
+.in input[type="password"]:hover,
+.in input[type="email"]:hover {
+    background-color: #252525;
+}
+
+.in input[type="submit"] {
+    border: 0;
+    background: #2ecc71;
+    display: inline;
+    margin: 30px 10px 20px 10px;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 7% 14px 7%;
+    cursor: pointer;
+    border-radius: 24px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.in input[type="reset"] {
+    border: 0;
+    background: none;
+    display: inline;
+    margin: 30px 10px 20px 10px;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 5% 14px 5%;
+    cursor: pointer;
+    border-radius: 24px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.in input[type="submit"]:hover,
+.in input[type="reset"]:hover {
+    background: #2ecc20;
+    border-color: #2ecc21;
+}
